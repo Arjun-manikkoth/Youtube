@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+.channel-image {
+  position: relative;
+}
+
+.zomatoimg {
+  width: 100%;
+  height: 570px;
+  object-fit: cover;
+}
+
+.header {
+  position: absolute;
+  top: 9px;
+  right: 50px;
+  display: flex;
+  gap: 22px;
+}
+
+.headerpara {
+  font-size: 18px;
+  color: rgb(222, 214, 214);
+}
+
+.zomato {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.zomatoicon {
+  width: 310px;
+}
+.zomatodiv{
+  margin-bottom: 25px;
+}
+.zomatopara {
+  font-size: 38px;
+  color: rgb(241, 235, 235);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.midsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mid {
+  font-size: 36px;
+}
+
+.india {
+  height: 35px;
+  margin: 10px;
+}
+.relative-position {
+  display: flex;
+  justify-content: center;
+}
+
+.longtext {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 50px;
+  line-height: 30px;
+  color: gray;
+  max-width: 560px;
+  padding-bottom: 45px;
+}
+
+.cities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  margin: 20px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.font {
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.cityaarrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(244, 240, 240);
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgb(224, 219, 219);
+  padding: 5px 30px;
+  flex: 1;
+  min-width: 200px;
+  gap: 100px;
+}
+
+.entity {
+  padding-right: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #f8f8f8;
+  padding-bottom: 35px!important;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.footer-logo {
+  height: 28px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-location, .footer-language {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon {
+  margin-right: 3px;
+  width: 22px;
+}
+.about{
+  max-width: 500px;
+}
+
+a{
+  text-decoration: none;
+}
